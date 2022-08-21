@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "439916864251",
+    "project_id": "quote-52bef",
+    "storage_bucket": "quote-52bef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:439916864251:android:4d7cf0b5395066c58c465e",
+        "android_client_info": {
+          "package_name": "com.sosu.project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "439916864251-drhliavar6lqagl9drh07m0aootln4ak.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPyBdn_8xoRFr7GV6nKG9Gh81kC6PCUXg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "439916864251-drhliavar6lqagl9drh07m0aootln4ak.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
