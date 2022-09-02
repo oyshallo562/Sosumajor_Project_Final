@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
         val formattedtime = current.format(formatter) //startdatetime에 들어갈 내용
         val temptime :Int = formattedtime!!.toInt()+6 //enddatetime에 들어갈 내용(toString()후 API호출)
 
-        lunchService.getLunch(API_KEY,"json",1,100,"B10","7010536","20220711","20220715").run {
+        lunchService.getLunch(API_KEY,"json",1,100,"B10","7010536",formattedtime,temptime.toString()).run {
             if (isSuccessful.not()) {
                 Log.e("getClassInfoRetrofit", toString())
                 return null
